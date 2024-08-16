@@ -1,0 +1,41 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body,
+#root {
+  width: 100vw;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+body {
+  background-color: #f8f9fa;
+  font-family: "Roboto", sans-serif;
+}
+
+h1 {
+  font-weight: bold;
+  color: #343a40;
+}
+
+.card {
+  border-radius: 10px;
+}
+
+h3,
+h2 {
+  margin-bottom: 15px;
+}
+
+#time-left {
+  font-size: 3.5rem;
+  letter-spacing: 2px;
+}
