@@ -1,7 +1,8 @@
 import React from "react";
 import { useSelector, useDispatch } from "react-redux";
-import { incrementSession, decrementSession } from "../features/clockSlice";
 import { Button, ButtonGroup, Card } from "react-bootstrap";
+
+import { incrementSession, decrementSession } from "../features/clockSlice";
 
 const SessionControl = () => {
   const sessionLength = useSelector((state) => state.clock.sessionLength);

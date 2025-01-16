@@ -1,7 +1,8 @@
 import React from "react";
 import { useSelector, useDispatch } from "react-redux";
-import { incrementBreak, decrementBreak } from "../features/clockSlice";
 import { Button, ButtonGroup, Card } from "react-bootstrap";
+
+import { incrementBreak, decrementBreak } from "../features/clockSlice";
 
 const BreakControl = () => {
   const breakLength = useSelector((state) => state.clock.breakLength);

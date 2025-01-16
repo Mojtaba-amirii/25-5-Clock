@@ -1,7 +1,8 @@
 import React, { useEffect, useRef } from "react";
 import { useSelector, useDispatch } from "react-redux";
-import { toggleRunning, reset, tick } from "../features/clockSlice";
 import { Button, ButtonGroup } from "react-bootstrap";
+
+import { toggleRunning, reset, tick } from "../features/clockSlice";
 
 const TimerControl = () => {
   const { isRunning, timeLeft } = useSelector((state) => state.clock);
