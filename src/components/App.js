@@ -1,10 +1,11 @@
 import React from "react";
+import { Container, Row, Col, Card } from "react-bootstrap";
+
 import BreakControl from "./BreakControl";
 import SessionControl from "./SessionControl";
 import Timer from "./Timer";
 import TimerControl from "./TimerControl";
 import "../styles/App.css";
-import { Container, Row, Col, Card } from "react-bootstrap";
 
 const App = () => {
   return (
