@@ -1,6 +1,7 @@
-import { render, screen } from "@testing-library/react";
-import App from "../components/App";
 import { Provider } from "react-redux";
+import { render, screen } from "@testing-library/react";
+
+import App from "../components/App";
 import store from "../features/store";
 
 test("renders 25 + 5 Clock title", () => {

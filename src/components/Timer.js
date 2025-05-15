@@ -1,6 +1,5 @@
-import React from "react";
-import { useSelector } from "react-redux";
 import { Card } from "react-bootstrap";
+import { useSelector } from "react-redux";
 
 const Timer = () => {
   const { timerLabel, timeLeft } = useSelector((state) => state.clock);

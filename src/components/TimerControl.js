@@ -1,6 +1,6 @@
-import React, { useEffect, useRef } from "react";
-import { useSelector, useDispatch } from "react-redux";
+import { useEffect, useRef } from "react";
 import { Button, ButtonGroup } from "react-bootstrap";
+import { useSelector, useDispatch } from "react-redux";
 
 import { toggleRunning, reset, tick } from "../features/clockSlice";
 
