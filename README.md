@@ -21,6 +21,12 @@ Runs Vitest in watch mode while developing.
 
 Builds the app for production into the `dist` directory.
 
+## Deployment
+
+The app is configured for Vercel to serve Vite's production output from
+`dist`. The repository-level `vercel.json` keeps this output directory aligned
+with the `npm run build` script.
+
 ## Tooling
 
 This project uses Vite for development and production builds. Create React App
